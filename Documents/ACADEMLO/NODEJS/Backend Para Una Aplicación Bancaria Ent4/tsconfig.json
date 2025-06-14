@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    /* Básicos */
+    "target": "ES2020", /* Genera código compatible con ES2020 */
+    "module": "CommonJS", /* Módulos de Node.js */
+    "rootDir": "./src", /* Carpeta de código fuente */
+    "outDir": "./dist", /* Carpeta de compilados */
+    "strict": true, /* Habilita todas las comprobaciones estrictas */
+    "esModuleInterop": true, /* Compatibilidad con importaciones CommonJS */
+    "forceConsistentCasingInFileNames": true, /* Evita conflictos de mayúsculas/minúsculas */
+    "skipLibCheck": true, /* Omite chequeo de tipos en librerías externas */
+    "resolveJsonModule": true, /* Permite importar .json */
+    /* Decoradores (requerido por TypeORM) */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    /* Mapas y ayuda de depuración */
+    "sourceMap": true, /* Genera .js.map para debugging */
+    "inlineSources": true, /* Incluye el código TypeScript original en los mapas */
+    /* Otras opciones útiles */
+    "noImplicitAny": true, /* Prohíbe variables con tipo any implícito */
+    "noUnusedLocals": true, /* Marca variables locales no usadas */
+    "noUnusedParameters": true, /* Marca parámetros no usados */
+    "noFallthroughCasesInSwitch": true /* Previene caídas accidentales en switch */
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
