@@ -1,0 +1,11 @@
+doctype html
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    title Confirmación de Registro
+  body
+    h1 ¡Hola #{name}!
+    p Gracias por registrarte en MiBanco.
+    p Haz clic en el siguiente enlace para verificar tu cuenta:
+    a(href=verificationLink)= verificationLink
+    p Si no solicitaste este correo, ignóralo.
